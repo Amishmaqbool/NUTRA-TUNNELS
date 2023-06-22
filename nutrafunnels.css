@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,900;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,900;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,900;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,100;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,100;1,200;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,500;1,700&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.custom-bg {
+    background-color: #43AC44;
+    border-bottom-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    height: 1350px;
+  }
+.font-monstrat{
+    font-family: 'Montserrat', sans-serif; 
+}
+@media (min-width: 992px) {
+    .img-lg {
+      max-width: 400px;
+      width: 70%;
+    }
+  }
+
+
+  .product-left {
+    max-width: 430px;
+    margin-top: 80px;
+  }
+
+  @media (min-width: 992px) {
+    .product-left {
+      display: block;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .product-left {
+      display: none;
+    }
+  }
+  .product-right {
+    max-width: 430px;
+    position: absolute;
+    right: 0%;
+  }
+
+  @media (min-width: 992px) {
+    .product-right {
+      display: block;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .product-right {
+      display: none;
+    }
+  }
+  .width-dev{
+    max-width: 220px !important;
+  }
+  .width-dev-img{
+    max-width: 600px !important;
+
+  }
+
+  .elementHeroA {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    max-width: 1000px;
+    margin: auto;
+    font-size: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    line-height: 45px;
+    z-index: 1; /* Initial z-index value */
+  }
+
+  @media (max-width: 1100px) {
+    .elementHeroA{
+      z-index: 1000px; /* Increased z-index value */
+    }
+  }
+  .joinOur {
+    color: #FFFFFF;
+    font-size: 119px;
+    line-height: 133px;
+    letter-spacing: -0.03em;
+    font-weight: 900;
+  }
+  
+  @media (max-width: 900px) {
+    .joinOur {
+      font-size: 50px; /* Decreased font size for screens below 900px */
+      line-height: 50px; /* Adjusted line height accordingly */
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .joinOur {
+      font-size: 30px; /* Further decreased font size for mobile screens */
+      line-height: 30px; /* Adjusted line height accordingly */
+    }
+  }
+  .small-button {
+    background-color: #FFFFFF; border-radius: 108.348px; color: #5DBC39; font-weight: 700; border: none; width: 
+            522.43px;
+            padding-top:25px;
+            margin-top: 15px;
+            padding-bottom:25px 
+  }
+  @media (max-width: 600px) {
+    .small-button {
+      width: 300px; /* Adjust the width as needed for smaller screens */
+      background-color: #FFFFFF; border-radius: 108.348px; color: #5DBC39; font-weight: 700; border: none;
+      padding-top:25px;
+      margin-top: 15px;
+      padding-bottom:25px 
+    }
+  }
+  .text-hero {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    margin: auto;
+    max-width: 1090px;
+    color: #FFFFFF;
+  }
+  
+  @media (max-width: 600px) {
+    .text-hero {
+      font-size: 30px; /* Adjust the font size as needed for smaller screens */
+    }
+  }
+  .custom-text {
+  color: #43AC44;
+  font-size: 90.9146px;
+}
+
+@media (max-width: 900px) {
+  .custom-text {
+    font-size: 40px; /* Decreased font size for screens below 900px */
+  }
+}
+
+@media (max-width: 700px) {
+  .custom-text {
+    font-size: 20px; /* Further decreased font size for mobile screens */
+  }
+}
+@media (max-width: 700px) {
+  .hide-below-700 {
+    display: none;
+  }
+}
+
+#myDiv {
+  width: 400px;
+  margin: auto;
+  position: relative;
+  /* Additional styling for the div */
+}
+.custom-buttonA {
+  max-width: 508px;
+  background-color: #D20000;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 115.017px;
+  padding: 12px 54px 12px 54px;
+  font-size: 51.693px;
+}
+
+@media (max-width: 576px) {
+  .custom-buttonA {
+    padding: 6px 20px 6px 20px;
+    font-size: 30px; /* Adjust the font size for small screens */
+    /* Additional styling for the button on small screens */
+  }
+}
+
+.noText{
+  color: #0B9443;
+  font-size: 169px;
+  font-weight: 900;
+}
+
+@media (max-width: 992px) {
+  .noText{
+    font-size: 100px; /* Adjust the font size for small and medium screens */
+    /* Additional styling for small and medium screens */
+  }
+}
+
+.custom-paragraph-1 {
+  color: #282828;
+  font-size: 35.9667px;
+  font-weight: 600;
+}
+
+.custom-paragraph-2 {
+  color: #43AC44;
+  font-size: 55.9667px;
+  font-weight: 800;
+  margin-top: -36px;
+}
+
+@media (max-width: 768px) {
+  .custom-paragraph-1 {
+    font-size: 20px; /* Adjust the font size for medium and small screens */
+    line-height: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    /* Additional styling for medium and small screens */
+  }
+
+  .custom-paragraph-2 {
+    font-size: 20px; /* Adjust the font size for medium and small screens */
+    /* Additional styling for medium and small screens */
+    line-height: 0;
+    margin-top: none !important;
+    display: flex;
+    justify-content: center;
+  }
+}
+.custom-paragraph-3 {
+  color: #282828;
+  font-size: 35.9667px;
+  font-weight: 600;
+}
+
+.custom-paragraph-4 {
+  color: #43AC44;
+  font-size: 55.9667px;
+  font-weight: 800;
+  margin-top: -36px;
+}
+
+@media (max-width: 768px) {
+  .custom-paragraph-3 {
+    font-size: 20px; /* Adjust the font size for medium and small screens */
+    display: flex;
+    justify-content: center;
+    /* Additional styling for medium and small screens */
+  }
+
+  .custom-paragraph-4 {
+    font-size: 20px; /* Adjust the font size for medium and small screens */
+    display: flex;
+    justify-content: center;
+    line-height: 0;
+  margin-top: 2px;
+    /* Additional styling for medium and small screens */
+  }
+}
+.custom-image {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .custom-image {
+    height: 200px; 
+    width: auto;/* Adjust the height for small screens */
+    /* Additional styling for small screens */
+  }
+}
+@media (max-width: 600px) {
+  .cards {
+      display: none;
+  }
+}
