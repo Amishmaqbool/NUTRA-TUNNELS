@@ -1,150 +1,156 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,900;1,100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,900;1,100;1,200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,900;1,100;1,200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,100;1,200;1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,100;1,200;1,300;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,900;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,900;1,100;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,900;1,100;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,100;1,200;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,100;1,200;1,300;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,500;1,700&display=swap");
 
-body{
-    margin: 0%;
-    padding: 0%;
-    width: 100%;
-    font-family: 'Montserrat', sans-serif; 
+body {
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
 }
 
 .custom-bg {
-    background-color: #43AC44;
-    border-bottom-left-radius: 1000px;
-    border-bottom-right-radius: 1000px;
-    height: 1450px;
-  }
-.font-monstrat{
-    font-family: 'Montserrat', sans-serif; 
+  background-color: #43ac44;
+  border-bottom-left-radius: 1000px;
+  border-bottom-right-radius: 1000px;
+  height: 1450px;
+}
+.font-monstrat {
+  font-family: "Montserrat", sans-serif;
 }
 @media (min-width: 992px) {
-    .img-lg {
-      max-width: 400px;
-      width: 70%;
-    }
+  .img-lg {
+    max-width: 400px;
+    width: 70%;
   }
+}
 
+.product-left {
+  max-width: 430px;
+  margin-top: 80px;
+}
 
+@media (min-width: 992px) {
   .product-left {
-    max-width: 430px;
-    margin-top: 80px;
+    display: block;
   }
+}
 
-  @media (min-width: 992px) {
-    .product-left {
-      display: block;
-    }
+@media (max-width: 700px) {
+  .product-left {
+    display: none;
   }
+}
+.product-right {
+  max-width: 430px;
+  position: absolute;
+  right: 0%;
+}
 
-  @media (max-width: 700px) {
-    .product-left {
-      display: none;
-    }
-  }
+@media (min-width: 992px) {
   .product-right {
-    max-width: 430px;
-    position: absolute;
-    right: 0%;
+    display: block;
   }
+}
 
-  @media (min-width: 992px) {
-    .product-right {
-      display: block;
-    }
+@media (max-width: 700px) {
+  .product-right {
+    display: none;
   }
+}
+.width-dev {
+  max-width: 220px !important;
+}
+.width-dev-img {
+  max-width: 600px !important;
+}
 
-  @media (max-width: 700px) {
-    .product-right {
-      display: none;
-    }
-  }
-  .width-dev{
-    max-width: 220px !important;
-  }
-  .width-dev-img{
-    max-width: 600px !important;
+.elementHeroA {
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  max-width: 1000px;
+  margin: auto;
+  font-size: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  line-height: 45px;
+  z-index: 1; /* Initial z-index value */
+}
 
-  }
-
+@media (max-width: 1100px) {
   .elementHeroA {
-    color: #FFFFFF;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    max-width: 1000px;
-    margin: auto;
-    font-size: 40px;
-    padding-left: 60px;
-    padding-right: 60px;
-    line-height: 45px;
-    z-index: 1; /* Initial z-index value */
+    z-index: 1000px; /* Increased z-index value */
   }
+}
+.joinOur {
+  color: #ffffff;
+  font-size: 119px;
+  line-height: 133px;
+  letter-spacing: -0.03em;
+  font-weight: 900;
+}
 
-  @media (max-width: 1100px) {
-    .elementHeroA{
-      z-index: 1000px; /* Increased z-index value */
-    }
-  }
+@media (max-width: 900px) {
   .joinOur {
-    color: #FFFFFF;
-    font-size: 119px;
-    line-height: 133px;
-    letter-spacing: -0.03em;
-    font-weight: 900;
+    font-size: 50px; /* Decreased font size for screens below 900px */
+    line-height: 50px; /* Adjusted line height accordingly */
   }
-  
-  @media (max-width: 900px) {
-    .joinOur {
-      font-size: 50px; /* Decreased font size for screens below 900px */
-      line-height: 50px; /* Adjusted line height accordingly */
-    }
+}
+
+@media (max-width: 700px) {
+  .joinOur {
+    font-size: 30px; /* Further decreased font size for mobile screens */
+    line-height: 30px; /* Adjusted line height accordingly */
   }
-  
-  @media (max-width: 700px) {
-    .joinOur {
-      font-size: 30px; /* Further decreased font size for mobile screens */
-      line-height: 30px; /* Adjusted line height accordingly */
-    }
-  }
+}
+.small-button {
+  background-color: #ffffff;
+  border-radius: 108.348px;
+  color: #5dbc39;
+  font-weight: 700;
+  border: none;
+  width: 522.43px;
+  padding-top: 25px;
+  margin-top: 15px;
+  padding-bottom: 25px;
+}
+@media (max-width: 600px) {
   .small-button {
-    background-color: #FFFFFF; border-radius: 108.348px; color: #5DBC39; font-weight: 700; border: none; width: 
-            522.43px;
-            padding-top:25px;
-            margin-top: 15px;
-            padding-bottom:25px 
-  }
-  @media (max-width: 600px) {
-    .small-button {
-      width: 300px; /* Adjust the width as needed for smaller screens */
-      background-color: #FFFFFF; border-radius: 108.348px; color: #5DBC39; font-weight: 700; border: none;
-      padding-top:25px;
-      margin-top: 15px;
-      padding-bottom:25px 
-    }
-  }
-  .text-hero {
-    font-family: 'Montserrat';
-    font-style: normal;
+    width: 300px; /* Adjust the width as needed for smaller screens */
+    background-color: #ffffff;
+    border-radius: 108.348px;
+    color: #5dbc39;
     font-weight: 700;
-    font-size: 40px;
-    margin: auto;
-    max-width: 1090px;
-    color: #FFFFFF;
+    border: none;
+    padding-top: 25px;
+    margin-top: 15px;
+    padding-bottom: 25px;
   }
-  
-  @media (max-width: 600px) {
-    .text-hero {
-      font-size: 30px; /* Adjust the font size as needed for smaller screens */
-    }
+}
+.text-hero {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  margin: auto;
+  max-width: 1090px;
+  color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .text-hero {
+    font-size: 30px; /* Adjust the font size as needed for smaller screens */
   }
-  .custom-text {
-  color: #43AC44;
+}
+.custom-text {
+  color: #43ac44;
   font-size: 90.9146px;
 }
 
@@ -173,8 +179,8 @@ body{
 }
 .custom-buttonA {
   max-width: 508px;
-  background-color: #D20000;
-  color: #FFFFFF;
+  background-color: #d20000;
+  color: #ffffff;
   border: none;
   border-radius: 115.017px;
   padding: 12px 54px 12px 54px;
@@ -189,14 +195,14 @@ body{
   }
 }
 
-.noText{
-  color: #0B9443;
+.noText {
+  color: #0b9443;
   font-size: 169px;
   font-weight: 900;
 }
 
 @media (max-width: 992px) {
-  .noText{
+  .noText {
     font-size: 100px; /* Adjust the font size for small and medium screens */
     /* Additional styling for small and medium screens */
   }
@@ -209,7 +215,7 @@ body{
 }
 
 .custom-paragraph-2 {
-  color: #43AC44;
+  color: #43ac44;
   font-size: 55.9667px;
   font-weight: 800;
   margin-top: -36px;
@@ -241,7 +247,7 @@ body{
 }
 
 .custom-paragraph-4 {
-  color: #43AC44;
+  color: #43ac44;
   font-size: 55.9667px;
   font-weight: 800;
   margin-top: -36px;
@@ -260,7 +266,7 @@ body{
     display: flex;
     justify-content: center;
     line-height: 0;
-  margin-top: 2px;
+    margin-top: 2px;
     /* Additional styling for medium and small screens */
   }
 }
@@ -272,13 +278,13 @@ body{
 
 @media (max-width: 576px) {
   .custom-image {
-    height: 200px; 
-    width: auto;/* Adjust the height for small screens */
+    height: 200px;
+    width: auto; /* Adjust the height for small screens */
     /* Additional styling for small screens */
   }
 }
 @media (max-width: 600px) {
   .cards {
-      display: none;
+    display: none;
   }
 }
