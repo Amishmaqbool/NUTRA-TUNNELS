@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,900;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,900;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,900;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,100;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,100;1,200;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,500;1,700&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.custom-bg {
+    background-color: #43AC44;
+    border-bottom-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    height: 900px !important;
+  }
+
+.asset{
+    margin-top: 130px;
+}
+.radius{
+    border-radius: 57px;
+}
+.font-monstrat{
+    font-family: 'Montserrat', sans-serif; 
+}
+.email-input::placeholder {
+    color: black;
+    font-weight: bold;
+    
+  }
+  
+  .email-input{
+ border-color:#E1E1E1 ;
+ border: 2px solid #E1E1E1 ;
+ border-radius: 7px;
+ padding-left: 8px;
+ padding-top: 12px;
+ padding-bottom: 12px;
+ 
+  }
+.typography{
+color: #323131;
+font-size: 34.56px;
+font-weight: 700;
+}
+.mb{
+    margin-bottom: 200px !important;
+}
+@media (max-width: 933px) {
+    .left-image,
+    .right-image {
+        display: none;
+    }
+}
